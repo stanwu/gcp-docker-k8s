@@ -1,5 +1,5 @@
 
 ```
-gcloud builds submit --tag gcr.io/[project_id]/game-api .
+gcloud builds submit --tag gcr.io/${DEVSHELL_PROJECT_ID}/game-api .
 ```
 
