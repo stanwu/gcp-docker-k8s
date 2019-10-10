@@ -5,6 +5,6 @@ app.get('/', function (req, res) {
   res.send('game-api v0.1');
 });
 
-app.listen(80, function () {
-  console.log('Example app listening on port 80!');
+app.listen(8080, function () {
+  console.log('game-api listening on port 8080!');
 });
