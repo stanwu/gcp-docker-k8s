@@ -29,6 +29,12 @@ $ docker build --tag local/game-api .
 Run Local Docker image
 
 ```
+$ docker run -it -p 8080:8080 local/game-api
+```
+
+PS. if you need cleanup container after exit app that just add  `--rm`
+
+```
 $ docker run -it -p 8080:8080 --rm local/game-api
 ```
 
@@ -41,7 +47,7 @@ gcloud auth configure-docker
 Push to Google Container Registry
 
 ```
-docker tag local/ec-api gcr.io/${DEVSHELL_PROJECT_ID}/game-api
+docker tag local/game-api gcr.io/${DEVSHELL_PROJECT_ID}/game-api
 docker push gcr.io/${DEVSHELL_PROJECT_ID}/game-api
 ```
 
@@ -53,27 +59,24 @@ Build Docker image with Cloud Build
 gcloud builds submit --tag gcr.io/${DEVSHELL_PROJECT_ID}/game-api .
 ```
 
-<!-- ##### Test application -->
-ud builds submit --tag gcr.io/${DEVSHELL_PROJECT_ID}/game-api .
-```
+### Test application
+
 first you need to find ContainerId of the running Docker image
+
 ```
 $ docker ps
 ```
-you can find ContainerId in a row where IMAGE column contains 'hello-world-java' phrase
 
+you can find ContainerId in a row where IMAGE column contains 'hello-world-java' phrase
 then you need to find IP address of the running Docker image
+
 ```
 $ docker inspect --format '{{ .NetworkSettings.IPAddress }}' [ContainerId]
 ```
 
 now test application
+
 ```
 $ curl [IPAddress]:8080
-```
-
-the respone should be
-```
-Hello World
 ```
 
