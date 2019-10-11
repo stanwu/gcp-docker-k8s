@@ -29,7 +29,7 @@ docker push gcr.io/${DEVSHELL_PROJECT_ID}/ec-api
 
 ### Method 2
 
-Google Cloud Build
+Google Cloud Build (first 120 mins free / build jobs up to 10 concurrent)
 
 ```
 gcloud builds submit --tag gcr.io/${DEVSHELL_PROJECT_ID}/ec-api .
