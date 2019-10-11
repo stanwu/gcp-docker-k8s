@@ -2,7 +2,7 @@
 
 - Why using Cloud Shell
 
-- Local vs Cloud Shell developing demo
+- Local vs Cloud Shell development demo
 
 - Cloud Shell Editor demo
 
