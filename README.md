@@ -1,16 +1,18 @@
 # GCP + Docker + K8S Examples
 
-- Why using Cloud Shell
+- Why use [Cloud Shell]
 
-- Local vs Cloud Shell development demo
+- Local vs [Cloud Shell] development demo
 
-- Cloud Shell Editor demo
+- [Cloud Shell] editor demo
 
-- Dockerfile + docker search
+- Dockerfile + Command 'docker search'
 
-- gcloud build docker image
+- How to use [Cloud Build] to build a docker image to Container Registry
 
 - Deploy to GCE
 
 - Deploy to GKE
 
+[Cloud Build]: https://cloud.google.com/cloud-build/?hl=zh-tw
+[Cloud Shell]: https://www.youtube.com/watch?v=9CDb9ZSsfV4
