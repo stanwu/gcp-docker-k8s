@@ -15,4 +15,4 @@
 - Deploy to GKE
 
 [Cloud Build]: https://cloud.google.com/cloud-build/?hl=zh-tw
-[Cloud Shell]: https://www.youtube.com/watch?v=9CDb9ZSsfV4
+[Cloud Shell]: https://cloud.google.com/shell/?hl=zh-tw
