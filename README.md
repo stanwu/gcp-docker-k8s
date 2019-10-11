@@ -1,6 +1,6 @@
 # GCP + Docker + K8S Examples
 
-- Why use [Cloud Shell]
+- Why use [Cloud Shell] (5GB for your source code)
 
 - Local vs [Cloud Shell] development demo
 
