@@ -14,5 +14,3 @@
 
 - Deploy to GKE
 
-- Update docker image
-
