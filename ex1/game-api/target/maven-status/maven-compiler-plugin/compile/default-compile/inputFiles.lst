@@ -1,2 +1,2 @@
-/home/stanwu_tw/docker-hello-world-spring-boot/src/main/java/com/dockerforjavadevelopers/hello/HelloController.java
-/home/stanwu_tw/docker-hello-world-spring-boot/src/main/java/com/dockerforjavadevelopers/hello/Application.java
+/home/stanwu_tw/gcp-docker-k8s/ex1/game-api/src/main/java/com/dockerforjavadevelopers/hello/HelloController.java
+/home/stanwu_tw/gcp-docker-k8s/ex1/game-api/src/main/java/com/dockerforjavadevelopers/hello/Application.java
