@@ -1,4 +1,4 @@
-# Config your local environment
+# Config your local development environment
 
 Local
 

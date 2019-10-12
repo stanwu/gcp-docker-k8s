@@ -2,6 +2,8 @@
 
 - Local development + Build a docker image + Push image to Container Registry
 
+- Config your local development environment
+
 - Why use [Cloud Shell] (60h/w + 5GB)
 
 - [Cloud Shell] editor
