@@ -1,14 +1,14 @@
 # GCP + Docker + K8S Examples
 
-- Why use [Cloud Shell] (5GB for your source code)
+- Local develp + build docker image + push to Container Registry
 
-- Local vs [Cloud Shell] development demo
+- Why use [Cloud Shell] (5GB for your source code)
 
 - [Cloud Shell] editor demo
 
-- Dockerfile + Command 'docker search'
+- [Cloud Shell] develp + [Cloud Build] docker image to Container Registry
 
-- How to use [Cloud Build] to build a docker image to Container Registry
+- Dockerfile + Command 'docker search'
 
 - Deploy to GCE
 
