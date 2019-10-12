@@ -1,8 +1,8 @@
 # GCP + Docker + K8S Examples
 
-- Local development + Build a docker image + Push image to Container Registry
-
 - Config your local development environment
+
+- Local development + Build a docker image + Push image to Container Registry
 
 - Why use [Cloud Shell] (60h/w + 5GB)
 
