@@ -1,4 +1,4 @@
-# GCP + Docker + K8S Examples
+# GCP + Docker + K8s Examples
 
 - Config your local development environment
 
